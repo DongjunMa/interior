@@ -1,0 +1,151 @@
+/*suit font*/
+
+*{
+    font-family: 'SUIT', sans-serif;
+}
+
+
+
+/* CSS 스타일 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+    position: sticky;
+    height: 56px;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1.4px 2.9px 2.9px #efefef;
+}
+.navCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 0 20px;
+}
+
+.logo >img{
+  width: 150px;
+}
+.button {
+  font-size: 14px;
+  padding: 10px 15px;
+  background-color: #2380e5;
+  color: #f1f1f1;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.button:hover{
+    background-color: #005196;
+}
+.first-cont{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.first-cont >p{
+    margin: 48px 0 0 0;
+}
+.first-cont > img{
+    margin-left: 40px;
+}
+.first-cont > h1 > strong{
+    color: #2380e5;
+}
+.firstText{
+    margin-top: 15px;
+    font-size: 2rem;
+}
+.latopAndPhone{
+    width: 40%;
+}
+
+/* 지금 등록하기 버튼*/
+.firstbtn{
+    margin-top: -20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #2380e5;
+    font-size: 18px;
+    transition: all 0.2s;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+
+    
+}
+
+.firstbtn:hover{
+    background-color: #005196;
+}
+
+/* second section */
+#secondSection{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.secondCont{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 100px 0 50px 0;
+}
+
+.secondCont > img{
+    width: 50%;
+    border-radius: 16px;
+    margin-right: 30px;
+}
+.textAreaCont h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #2380e5;
+}
+/* third section */
+.thirdCont{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 100px 100px 50px 0;
+}
+
+.textAreaCont2 h1{
+    font-size: 32px;
+    font-weight: 800;
+    color: #2380e5;
+}
+.thirdCont > img{
+    width: 50%;
+    border-radius: 16px;
+    margin-left: 30px;
+}
